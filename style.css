@@ -19,3 +19,16 @@
     flex-wrap: wrap;
     max-width: 600px;
   }
+
+  .square {
+    width: 20px;
+    height: 20px;
+    background-color: #1d1d1d;
+    margin: 2px;
+    box-shadow: 0 0 2px #000;
+    transition:10s ease;
+  }
+
+  .square:hover {
+    transition-duration: 0s;
+  }
