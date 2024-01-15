@@ -19,3 +19,9 @@ function setColor(event){
     element.style.backgroundColor = color;
     element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`
 }
+
+function removeColor(event){
+    const element = event.target
+    element.style.backgroundColor = '#1d1d1d'
+    element.style.boxShadow = `0 0 2px #000`
+}
